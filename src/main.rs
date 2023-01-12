@@ -30,7 +30,7 @@ fn draw_characters(
         let x = (i * max_size as usize) as i32 + (max_size / 2) as i32;
         draw_text_mut(
             image,
-            Rgba([0, 0, 0, 255]),
+            Rgba([255, 255, 255, 255]),
             x,
             0,
             scale,
